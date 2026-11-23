@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+out/
+next-env.d.ts
+
+# data
+data/*.db
+data/*.db-*
+data/*.sqlite*
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs and OS
+*.log
+.DS_Store
+
+# tests
+coverage/
+
+# editor
+.vscode/
+.idea/

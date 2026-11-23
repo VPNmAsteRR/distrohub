@@ -1,0 +1,42 @@
+@import "../src/app/globals.css";
+@import "../src/app/field-guide.css";
+@import "../src/app/orbit.css";
+@import "../src/app/fonts.css";
+
+@source "../offline";
+@source "../src/components";
+@source "../src/app/about";
+@source "../src/app/guides";
+@source "../src/app/not-found.tsx";
+
+html {
+  min-height: 100%;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+/* The offline file must survive a file:// origin, where history APIs are limited. */
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.field {
+  min-width: 0;
+}
+
+@media (max-width: 380px) {
+  .container-page {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+}

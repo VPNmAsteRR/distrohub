@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Puppy Linux">
+  <g fill="#B87A00">
+    <ellipse cx="7" cy="7.1" rx="2.05" ry="2.45" transform="rotate(-18 7 7.1)"/>
+    <ellipse cx="12" cy="5.7" rx="2.05" ry="2.55"/>
+    <ellipse cx="17" cy="7.1" rx="2.05" ry="2.45" transform="rotate(18 17 7.1)"/>
+    <ellipse cx="4.9" cy="11.6" rx="1.55" ry="1.9" transform="rotate(-32 4.9 11.6)"/>
+    <ellipse cx="19.1" cy="11.6" rx="1.55" ry="1.9" transform="rotate(32 19.1 11.6)"/>
+  </g>
+  <path d="M12 10.2c3.1 0 5.9 2.6 5.9 5.2 0 2.2-1.8 3.3-3.5 2.7-1.6-.6-3.2-.6-4.8 0-1.7.6-3.5-.5-3.5-2.7 0-2.6 2.8-5.2 5.9-5.2Z" fill="#D4A017"/>
+</svg>
